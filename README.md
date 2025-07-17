@@ -16,18 +16,7 @@ This project implements a speaker recognition system using a combination of Conv
 2.  [Features](#features)
 3.  [Dependencies](#dependencies)
 4.  [Dataset](#dataset)
-5.  [Usage](#usage)
-    *   [Installation](#installation)
-    *   [Data Preparation](#data-preparation)
-    *   [Training](#training)
-    *   [Evaluation](#evaluation)
-6.  [Model Details](#model-details)
-7.  [Results](#results)
-8.  [Visualizations](#visualizations)
-9.  [Resource Utilization](#resource-utilization)
-10. [Future Work](#future-work)
-11. [License](#license)
-12. [Contact](#contact)
+
 
 ## 1. Introduction
 
@@ -71,3 +60,10 @@ You can install these dependencies using pip:
 
 ```bash
 pip install librosa numpy scikit-learn tensorflow matplotlib seaborn resampy
+```
+
+## 4. Dataset
+```bash
+https://www.kaggle.com/datasets/dibyanshbaranwal/random-speech
+```
+Description - Here I have taken 12 speaker voice to train my model. It also consist of background_noise to make the model more robust. 
